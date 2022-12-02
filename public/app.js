@@ -35,3 +35,21 @@ onlyNumberOfArray.push(20);
 let person = ["Szaniszló Árpád", 29];
 const [fullName, age] = person;
 console.log(fullName, person);
+let album = {
+    userId: 1,
+    id: 1,
+    title: "Quidem molestia enim",
+    photos: [{
+            id: 10,
+            title: "Photo title",
+            url: "Photo Url",
+            thumnailUrl: "Photo thumnailUrl"
+        }]
+};
+console.log(album);
+let album2 = {
+    userId: 2,
+    id: 3,
+    title: "Hello",
+    numberOfUnitsSold: 3
+};
